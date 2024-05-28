@@ -5,8 +5,8 @@ import { Sidebar } from '../Sidebar/Sidebar'
 export const Navbar = () => {
   return (
     <div className='h-[100px]'>
-      <Sidebar/>
-        <div className='  flex items-center justify-between h-full mx-[15%] md:mx-[20%] lg:mx-[300px]'>
+      <Sidebar />
+        <div className='  flex items-center justify-between h-full mx-[15%] md:mx-[20%] lg:mx-[150px]'>
             <motion.span className='font-bold'
             initial = {{opacity: 0, scale: 0.5 }}
             animate = {{ opacity: 1, scale: 1 }}
