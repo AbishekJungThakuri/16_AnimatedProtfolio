@@ -1,6 +1,7 @@
 import React from 'react'
 import { Navbar } from './Components/Navbar'
 import { Hero } from './Components/Hero'
+import { Parallax } from './Components/Parallax'
 
  const App = () => {
   return (
@@ -9,8 +10,12 @@ import { Hero } from './Components/Hero'
       <Navbar/>
       <Hero/>
     </div>
-    <div className='h-[100vh] snap-center' id='Services'>home</div>
-    <div className='h-[100vh] snap-center' id='Portfolio'>contact</div>
+    <div className='h-[100vh] snap-center' id='Services'>
+      <Parallax type='services' />
+    </div>
+    <div className='h-[100vh] snap-center' id='Portfolio'>
+      <Parallax type='portfolio' />
+    </div>
     <div className='h-[100vh] snap-center' id='Contact'>protfolio</div>
     <div className='h-[100vh] snap-center' id='About'>App</div>
     </>

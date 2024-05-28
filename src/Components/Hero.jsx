@@ -64,13 +64,13 @@ export const Hero = () => {
           <motion.div variants={textVariants} className="flex gap-6">
             <motion.button
               variants={textVariants}
-              className="p-[20px] border border-white border-solid rounded-[10px] cursor-pointer font-bold"
+              className="p-[20px] border border-white border-solid rounded-[10px] font-bold"
             >
               See the Latest Works
             </motion.button>
             <motion.button
               variants={textVariants}
-              className="p-[20px] border border-white border-solid rounded-[10px] cursor-pointer bg-white text-black font-bold"
+              className="p-[20px] border border-white border-solid rounded-[10px] bg-white text-black font-bold"
             >
               Contact Me
             </motion.button>

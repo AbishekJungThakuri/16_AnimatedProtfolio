@@ -4,7 +4,7 @@ import { IoClose } from "react-icons/io5";
 
 export const ToggleButton = ({setOpen, open}) => {
   return (
-    <button className='w-[50px] h-[50px] fixed top-[25px] left-[25px] bg-transparent border-none cursor-pointer'
+    <button className='w-[50px] h-[50px] fixed top-[25px] left-[25px] bg-transparent border-none cursor-pointer z-40'
     onClick={()=> setOpen(prev => !prev)}
     >
      { open ?

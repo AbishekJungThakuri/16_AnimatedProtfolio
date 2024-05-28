@@ -31,7 +31,7 @@ export const Sidebar = () => {
     className='flex flex-col justify-center bg-white text-black'
     animate = {open ? 'open' : 'closed'}
     >
-      <motion.div className='w-[250px] fixed top-0 left-0 bottom-0 bg-white'
+      <motion.div className='w-[250px] fixed top-0 left-0 bottom-0 bg-white z-40'
       variants={variants}
       >
         <Links/>
