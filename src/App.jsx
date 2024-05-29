@@ -3,25 +3,27 @@ import { Navbar } from './Components/Navbar'
 import { Hero } from './Components/Hero'
 import { Parallax } from './Components/Parallax'
 import { Services } from './Components/Services'
+import { Portfolio } from './Components/Portfolio'
 
  const App = () => {
   return (
     <>
-    <div className='h-[100vh] snap-center' id='Homepage'>
+    <section id='Homepage'>
       <Navbar/>
       <Hero/>
-    </div>
-    <div className='h-[100vh] snap-center' id='Services'>
+    </section>
+    <section  id='Services'>
       <Parallax type='services' />
-    </div>
-    <div className='h-[100vh] snap-center' id='Services'>
+    </section>
+    <section >
       <Services/>
-    </div>
-    <div className='h-[100vh] snap-center' id='Portfolio'>
+    </section>
+    <section  id='Portfolio'>
       <Parallax type='portfolio' />
-    </div>
-    <div className='h-[100vh] snap-center' id='Contact'>protfolio</div>
-    <div className='h-[100vh] snap-center' id='About'>App</div>
+    </section>
+    
+    <Portfolio/>
+    
     </>
   )
 }
